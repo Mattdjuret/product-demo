@@ -1,0 +1,27 @@
+.progress-bar {
+    position: relative;
+    height: 10px;
+    width: 200px;
+    background: #eee;
+    margin: 0px 10px;
+    @include respond-below(lg) {
+        width: 130px;
+      }
+    @include respond-below(md) {
+        width: 180px;
+      }
+      
+      @include respond-below(sm) {
+        width: 100px;
+      }
+      
+      @include respond-below(xs) {
+        width: 100px;
+      }
+  }
+  
+  .filler {
+    background: $brand-color;
+    height: 100%;
+    transition: width .2s ease-in;
+  }

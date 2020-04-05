@@ -1,0 +1,36 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  .grid-item {
+    flex-basis: 30%;
+    width: 400px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  @include respond-below(md) {
+    .grid-item {
+      flex-basis: 48%;
+    }
+  }
+
+  @include respond-below(sm) {
+    .grid-item {
+      flex-basis: 48%;
+    }
+  }
+
+  @include respond-below(xs) {
+    .grid-item {
+      flex-basis: 100%;
+    }
+  }
+}

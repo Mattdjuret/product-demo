@@ -1,0 +1,49 @@
+.app {
+    background-color: $bg-color;
+    padding: 20px 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: $text-color;
+    @include respond-below(xs) {
+          padding: 20px 7px;
+      }
+  }
+  
+  .sort-label {
+    font-size: calc(10px + 1vmin);
+  }
+  
+  .btn-group {
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #333;
+    display: inline-block;
+    cursor: pointer;
+    color: #333;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin-right: 10px;
+  
+    &:focus {
+      outline: none;
+    }
+  
+    &.selected {
+      border: 1px solid $brand-color;
+      background-color: $brand-color;
+      color: #fff;
+    }
+  }
+  
+  

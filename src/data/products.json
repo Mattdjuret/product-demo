@@ -1,0 +1,61 @@
+{
+  "items": [
+    {
+      "cost":62.98,
+      "currency":"sek",
+      "lead_time":2,
+      "product":"cubimal-npc-toolvendor_1"
+    },
+
+    { "cost":134,
+      "currency":"sek",
+      "lead_time":2,
+      "product":"cubimal-npc-cactus_1"
+    },
+
+    { "cost":147.23,
+      "currency":"sek",
+      "lead_time":2,
+      "product":"cubimal-npc-toolvendor_2"
+    },
+
+    {
+      "cost":416.21,
+      "currency":"sek",
+      "lead_time":1,
+      "product":"cubimal-npc-chick_1"
+    },
+
+    {
+      "cost":98.23,
+      "currency":"sek",
+      "lead_time":3,
+      "product":"cubimal-npc-chick_2"
+    },
+
+    {
+      "cost":349.21,
+      "currency":"sek",
+      "lead_time":1,
+      "product":"cubimal-npc-uraliastreetspirit_1"
+    },
+
+    { "cost":1342.76,
+      "currency":"sek",
+      "lead_time":1,
+      "product":"cubimal-npc-toolvendor_3"
+    },
+
+    { "cost":123,
+      "currency":"sek",
+      "lead_time":2,
+      "product":"cubimal-npc-cactus_2"
+    },
+
+    { "cost":176,
+      "currency":"sek",
+      "lead_time":2,
+      "product":"cubimal-npc-ilmenskiejones_1"
+    }
+  ]
+}
